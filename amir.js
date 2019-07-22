@@ -24,8 +24,8 @@ search_close.onclick = function() {
 
 var x = 1, n = 4;
 show();
-setInterval(next, 4000);
-function next() { x < n ? x++ : x = 1; show(); }
-function show() {
-document.getElementById("header").style.backgroundImage = 'linear-gradient(rgba(5,5,5,0.8), rgba(5,5,5,0.6),rgba(5,5,5,0.4)), url(img/manshet' + x + '.jpg)';
+    setInterval(next, 4000);
+    function next() { x < n ? x++ : x = 1; show(); }
+    function show() {
+    document.getElementById("header").style.backgroundImage = 'linear-gradient(rgba(5,5,5,0.8), rgba(5,5,5,0.6),rgba(5,5,5,0.4)), url(img/manshet' + x + '.jpg)';
 }
